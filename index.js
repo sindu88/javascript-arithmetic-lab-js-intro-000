@@ -17,9 +17,11 @@ function divide(a,b)
 }
 function inc(a)
 {
-  return a++;
+  a+=1
+  return a;
 }
 function dec(a)
 {
-  return a--;
+  a-=1
+  return a;
 }
